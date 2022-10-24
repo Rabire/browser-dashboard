@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+iframe {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+}
+
+.MPwidget {
+    z-index: 1;
+    position: absolute;
+    bottom: -2rem;
+    left: calc(50% - 180px);
+}
+
+.MPwidget div {
+    display: none;
+}
+
+.MPwidget table tbody > :nth-child(1) {
+    display: none;
+}
